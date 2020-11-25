@@ -1,0 +1,9 @@
+.footer {
+  &__nav-list {
+    @include list-reset;
+  }
+
+  &__nav-item {
+    padding: 4px 16px;
+  }
+}

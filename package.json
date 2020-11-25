@@ -1,0 +1,55 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Name Surname",
+  "license": "ISC",
+  "scripts": {
+    "test": "stylelint \"src/sass/**/*.scss\" --syntax scss",
+    "build": "cross-env NODE_ENV=production gulp build",
+    "start": "cross-env NODE_ENV=development gulp start"
+  },
+  "devDependencies": {
+    "@babel/core": "7.10.4",
+    "@babel/preset-env": "7.10.4",
+    "autoprefixer": "9.8.0",
+    "babel-loader": "8.1.0",
+    "browser-sync": "^2.26.10",
+    "cross-env": "7.0.2",
+    "css-loader": "3.6.0",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "gulp-concat": "2.6.1",
+    "gulp-csso": "4.0.1",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-imagemin": "7.1.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "8.0.0",
+    "gulp-posthtml": "3.0.5",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "4.1.0",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-svgstore": "7.0.1",
+    "gulp-uglify": "3.0.2",
+    "gulp-webp": "4.0.1",
+    "posthtml-include": "1.4.3",
+    "style-loader": "1.2.1",
+    "stylelint": "13.5.0",
+    "stylelint-config-sass-guidelines": "7.0.0",
+    "stylelint-config-standard": "20.0.0",
+    "svelte": "3.29.0",
+    "svelte-loader": "2.13.6",
+    "webpack": "4.43.0",
+    "webpack-stream": "5.2.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "aos": "2.3.4",
+    "swiper": "6.3.5"
+  }
+}
